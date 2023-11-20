@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { IoBrowsersOutline, IoCalculator, IoFootball, IoHeartHalfOutline, IoHeartOutline, IoLogoReact } from 'react-icons/io5';
+import { IoBrowsersOutline, IoCalculator, IoFootball, IoHeartOutline, IoLogoReact } from 'react-icons/io5';
 import { SidebarMenuItem } from './SidebarMenuItem';
 
 
@@ -26,7 +26,7 @@ const menuItems = [
     path: '/dashboard/favorites',
     icon: <IoHeartOutline size={40} />,
     title: 'Favoritos',
-    subTitle: 'Global state'
+    subTitle: 'Global State'
   },
 ]
 
@@ -62,7 +62,7 @@ export const Sidebar = () => {
             />
           </span>
           <span className="text-sm md:text-base font-bold">
-            Fernando Gorordo
+            Fernando Herrera
           </span>
         </a>
       </div>
